@@ -3,8 +3,8 @@ require 'rails/generators/migration'
 
 module Ckeditor
   module Generators
-    class InstallGenerator < Rails::Generators::Base
-      include Rails::Generators::Migration
+    class InstallGenerator < ::Rails::Generators::Base
+      include ::Rails::Generators::Migration
 
       desc "Generates migration for Asset (Picture, AttachmentFile) models"
       
